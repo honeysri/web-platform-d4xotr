@@ -2,11 +2,13 @@
 
 * {
   box-sizing: border-box;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 body {
-  margin-left: 10px;
-  margin: 0;
   font-family: system-ui, sans-serif;
   color: white;
   background-color: white;
@@ -15,8 +17,8 @@ body {
 }
 
 .logo {
-  height: 10vh;
-  width: 10vw;
+  height: 6vh;
+  width: 4vw;
 }
 
 .row {
@@ -59,4 +61,15 @@ main {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+  color: red;
+}
+
+h2 {
+  color: blue;
+}
+
+pre {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
 }
